@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 8vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    /* position: fixed; 
+    z-index: -1;  */
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    margin: 10px;
+  
+}
+#navbar ul li a{
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.box{
+    height: 69vh;
+    /* background-color: rgb(25, 206, 94); */
+}
+.footer{
+   
+    background-color: rgb(80, 80, 230);
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+.forms{
+    margin-top: 10px;
+
+    /* background-color: rgb(247, 134, 134); */
+    height: 80vh;
+    
+}
+.forms h1{
+    text-align: center;
+}
+/* .formcont{
+   
+    /* background-color: chartreuse; 
+   
+    
+} */
+.formcont input{
+    display: block;
+    height: 5vh;
+    
+    padding: 5px;
+    width:40vw;
+    margin: 10px auto;
+}
+#btn{
+   
+    display: block;
+    margin: 10px auto;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login {
+    margin-top: 50px;
+    /* background-color: red; */
+}
+#loginh{
+    margin-top: 10px;
+    text-align: center;
+}
+.login input{
+    display: block;
+    margin: 10px auto;
+    width: 40vw;
+    height: 5vh;
+
+}
+#btnlogin{
+    display: block;
+    margin: auto;
+    height: 5vh;
+    width: 40vw;
+    background-color: rgb(176, 176, 228);
+    cursor: pointer;
+}
